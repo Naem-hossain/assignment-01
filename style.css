@@ -1,5 +1,107 @@
+
+
 body{
-    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px;
     padding: 0;
 
 }
+h1{
+    font-size: 30px;
+    color: rgb(255, 0, 153);
+}
+.header-text{
+    color: rgb(255, 0, 153) ;
+    margin-bottom: 20px;
+}
+.header-section{
+    background-image: url(/images/donation2.jpg);
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: 100%;
+}
+.container{
+    text-align: center;
+    padding: 30px;
+    margin-top: 10px;
+}
+.link-btn{
+   text-decoration: none;
+   background-color: #FF5959;
+   padding: 10px 30px;
+   margin: 20px;
+   font-size: large;
+   color: white;
+   border-radius: 5px;
+}
+.donet-section{
+    text-align: center;
+    margin-top: 50px;
+}
+.input-fild{
+    margin: 20px;
+    text-align: center;
+}
+.donet-amount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+#amount{
+    background-color:#deb3b3;
+    color: #FF5959;
+    border: 3px solid #FF5959;
+    padding: 30px;
+    border-radius: 5px;
+}
+.other-amount{
+    background-color: gray;
+    padding: 30px;
+    border-radius: 5px;
+}
+.donet{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.donet-div{
+    height: 300px;
+    width: 20%;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+.donet-plan{
+    display: flex;
+    justify-content: space-around;
+}
+.updates-input{
+    background-color: #D9D9D9;
+    width: 700px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 345px;
+}
+#email-input{
+    padding: 10px;
+    border: none;
+    margin-top: 80px;
+}
+.subscribe{
+    background-color: #FF5959;
+    border: none;
+    padding: 10px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+ 
