@@ -15,7 +15,7 @@ h1{
     margin-bottom: 20px;
 }
 .header-section{
-    background-image: url(./images/donation2.jpg);
+    background-image: url("./images/donation2.jpg");
     background-repeat: no-repeat;
     height: 550px;
     background-size: 100%;
